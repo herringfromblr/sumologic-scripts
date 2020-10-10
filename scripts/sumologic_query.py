@@ -4,13 +4,13 @@
 #    ByReceiptTime - False
 #
 # Example #1:
-# python sumologic_query_3.py -id <access_id> -k <access_key> -ft <from_time> -tt <to_time> -tz <timezone> query1.sumoql
+# python sumologic_query.py -id <access_id> -k <access_key> -ft <from_time> -tt <to_time> -tz <timezone> query1.sumoql
 #
 # Example #2:
-# python sumologic_query_3.py -id <access_id> -k <access_key> -ft 2020-10-03T00:00:00 -tt 2020-10-05T08:00:00 query1.sumoql
+# python sumologic_query.py -id <access_id> -k <access_key> -ft 2020-10-03T00:00:00 -tt 2020-10-05T08:00:00 query1.sumoql
 #
 # Example #3 - verbose output:
-# python sumologic_query_3.py -id <access_id> -k <access_key> -ft 2020-10-03T00:00:00 -tt 2020-10-05T08:00:00 -v query1.sumoql
+# python sumologic_query.py -id <access_id> -k <access_key> -ft 2020-10-03T00:00:00 -tt 2020-10-05T08:00:00 -v query1.sumoql
 #
 
 import time
