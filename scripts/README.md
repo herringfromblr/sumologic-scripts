@@ -15,5 +15,8 @@ Usage:
 - Run **--help** command to see avaliable script options 
 > python sumologic_query.py --help<br\>
 - Run the query:
-> python sumologic_query.py -id \<access_id\> -k \<access_key\> -e \<endpoint\> -ft \<from_time\> -tt \<to_time\> **\<query_file\>**<br\>
+> python sumologic_query.py -id \<access_id\> -k \<access_key\> -e \<endpoint\> -ft \<from_time\> -tt \<to_time\> **\<query_file\>**
+
+Example:
+> python sumologic_query.py -id xxxxxxx -k xxxxxxx -e https://api.us2.sumologic.com/api -ft 2020-10-01T00:00:00 -tt 2020-10-06T11:00:00 query1.sumoql
 
