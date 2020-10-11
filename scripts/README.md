@@ -8,8 +8,8 @@ In order to use that script 2 additional Python modules should be installed:
 - click
 
 You need to install these modules in advance:
-> pip install sumologic-sdk<br\>
-> pip install click<br\>
+> pip install sumologic-sdk <br\>
+> pip install click <br\>
 
 Usage:
 - Run **--help** command to see avaliable script options 
